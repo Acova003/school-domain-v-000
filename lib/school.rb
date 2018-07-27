@@ -18,7 +18,7 @@ class School
     if @roster != nil
       @roster= {grade => [student]}
     else 
-      student.each {|student| @roster[grade] << student}
+      roster[grade] << student
     end
     
   end
