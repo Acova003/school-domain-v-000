@@ -9,7 +9,8 @@ class School
   end
   
   def roster
-    
+    @roster = {}
+  end 
   def add_student(student, grade)
     if @roster != nil
       @roster= {grade => [student]}
