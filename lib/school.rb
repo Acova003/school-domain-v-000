@@ -24,7 +24,7 @@ class School
   end
   
   def grade(grade)
-    grade[_list = []]
+    roster[grade]
   end 
   
   def sort 
