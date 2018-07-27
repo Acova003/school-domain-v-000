@@ -28,8 +28,7 @@ class School
   end 
   
   def sort 
-    @roster.keys.sort!
-    @roster 
+    roster.sort.to_h
   end 
   
 
