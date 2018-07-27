@@ -1,6 +1,6 @@
 # code here!
 require 'pry'
-
+  binding.pry
 class School
   attr_accessor  :name, :roster
   attr_reader :add_student, :grade
