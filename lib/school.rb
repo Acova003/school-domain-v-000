@@ -1,4 +1,5 @@
 # code here!
+require 'pry'
 class School
   attr_accessor  :name, :roster
   attr_reader :add_student, :grade
@@ -8,6 +9,7 @@ class School
     @roster = roster
   end
   
+  binding.pry
   def roster
     @roster = {}
   end 
