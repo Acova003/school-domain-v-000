@@ -18,7 +18,7 @@ class School
     if roster.nil? 
       @roster[grade] = []
     else
-      @roster[grade]<< student
+      @roster[grade]= student
     end 
     @roster 
   end 
