@@ -18,6 +18,6 @@ class School
   end 
   
   def sort 
-    @school.sort {|k, v| k <=> k}
+    school.sort {|k, v| k <=> k}
   end 
 end 
