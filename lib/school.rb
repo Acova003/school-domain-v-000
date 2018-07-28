@@ -18,8 +18,7 @@ class School
   end 
   
   def sort 
-    @roster.sort.to_h
-    @roster.values.sort.to_h
+    @roster[my_hash.sort.map { |a,b| [a, b.sort] }]
       
   end 
 end 
