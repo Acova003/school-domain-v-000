@@ -6,14 +6,9 @@ class School
   
   def initialize(name)
     @name = name
-    @roster = roster
-  end
-  
-
-  def roster
     @roster = {}
-  end 
-  
+  end
+
   def add_student(student, grade)
     if @roster == nil 
       @roster[grade] = []
