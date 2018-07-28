@@ -19,6 +19,6 @@ class School
   
   def sort 
     
-    endroster.sort.map do |key,value| 
+    Hash[roster.sort_by{|k,v| v}]
   end 
 end 
