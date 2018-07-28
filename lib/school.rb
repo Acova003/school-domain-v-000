@@ -5,7 +5,6 @@ class School
   attr_reader :add_student, :grade
   
   def initialize(name)
-    @name = name
     @roster = {}
   end
 
