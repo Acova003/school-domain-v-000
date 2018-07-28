@@ -18,6 +18,7 @@ class School
   end 
   
   def sort 
-    school.sort {|k, v| k <=> k}
+    roster.sort.map do |key,value|
+    end
   end 
 end 
