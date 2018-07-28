@@ -18,7 +18,7 @@ class School
   end 
   
   def sort 
-    
-    Hash[roster.sort_by{|k,v| v}]
+    @roster.keys.each do {|k, v|
+      
   end 
 end 
