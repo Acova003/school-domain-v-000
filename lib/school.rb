@@ -18,6 +18,6 @@ class School
   end 
   
   def sort 
-    @roster.sort{|a,z|a<=>z}.to_h
+    @roster.sort{|k, v|k<=>k}.to_h
   end 
 end 
