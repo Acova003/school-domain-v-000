@@ -18,7 +18,7 @@ class School
   end 
   
   def sort 
-    @roster.keys.each do {|k, v|
+    @roster.sort
       
   end 
 end 
